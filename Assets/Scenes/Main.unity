@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 56681145}
   - component: {fileID: 56681147}
   - component: {fileID: 56681146}
+  - component: {fileID: 56681148}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -256,6 +257,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 56681144}
   m_CullTransparentMesh: 1
+--- !u!114 &56681148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56681144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Shadow
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.39215687}
+  m_EffectDistance: {x: 3, y: -3}
+  m_UseGraphicAlpha: 1
 --- !u!1 &261410862
 GameObject:
   m_ObjectHideFlags: 0
@@ -267,8 +283,9 @@ GameObject:
   - component: {fileID: 261410863}
   - component: {fileID: 261410865}
   - component: {fileID: 261410864}
+  - component: {fileID: 261410866}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: banana
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -331,6 +348,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 261410862}
   m_CullTransparentMesh: 1
+--- !u!114 &261410866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261410862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dffe9230dc30574aa52db61ce0af9af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FloatImage
+  imageRect: {fileID: 261410863}
+  amplitude: 15
+  speed: 2
 --- !u!1 &453627342
 GameObject:
   m_ObjectHideFlags: 0
@@ -342,6 +374,7 @@ GameObject:
   - component: {fileID: 453627343}
   - component: {fileID: 453627345}
   - component: {fileID: 453627344}
+  - component: {fileID: 453627346}
   m_Layer: 5
   m_Name: nuvem
   m_TagString: Untagged
@@ -406,6 +439,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 453627342}
   m_CullTransparentMesh: 1
+--- !u!114 &453627346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 453627342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ee2dbf3904bef64f9fb25df683e2c3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SwayImage
+  imageRect: {fileID: 453627343}
+  amplitude: 20
+  speed: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -749,8 +797,9 @@ GameObject:
   - component: {fileID: 647156914}
   - component: {fileID: 647156916}
   - component: {fileID: 647156915}
+  - component: {fileID: 647156917}
   m_Layer: 5
-  m_Name: Image (2)
+  m_Name: "ma\xE7\xE3"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -813,6 +862,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 647156913}
   m_CullTransparentMesh: 1
+--- !u!114 &647156917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647156913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dffe9230dc30574aa52db61ce0af9af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FloatImage
+  imageRect: {fileID: 647156914}
+  amplitude: 15
+  speed: 2
 --- !u!1 &705087597
 GameObject:
   m_ObjectHideFlags: 0
@@ -944,8 +1008,9 @@ GameObject:
   - component: {fileID: 792620820}
   - component: {fileID: 792620822}
   - component: {fileID: 792620821}
+  - component: {fileID: 792620823}
   m_Layer: 5
-  m_Name: Image
+  m_Name: broculo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1008,6 +1073,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 792620819}
   m_CullTransparentMesh: 1
+--- !u!114 &792620823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792620819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dffe9230dc30574aa52db61ce0af9af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FloatImage
+  imageRect: {fileID: 792620820}
+  amplitude: 15
+  speed: 2
 --- !u!1 &860693852
 GameObject:
   m_ObjectHideFlags: 0
@@ -1019,6 +1099,7 @@ GameObject:
   - component: {fileID: 860693853}
   - component: {fileID: 860693855}
   - component: {fileID: 860693854}
+  - component: {fileID: 860693856}
   m_Layer: 5
   m_Name: sol
   m_TagString: Untagged
@@ -1083,6 +1164,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 860693852}
   m_CullTransparentMesh: 1
+--- !u!114 &860693856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860693852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43260b2b2659a5d4a8aec4e6fe07e6f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RotateImage
+  imageRect: {fileID: 860693853}
+  speed: 15
 --- !u!1 &862428985
 GameObject:
   m_ObjectHideFlags: 0
@@ -1310,6 +1405,7 @@ GameObject:
   - component: {fileID: 1637288797}
   - component: {fileID: 1637288799}
   - component: {fileID: 1637288798}
+  - component: {fileID: 1637288800}
   m_Layer: 5
   m_Name: nuvem
   m_TagString: Untagged
@@ -1374,6 +1470,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1637288796}
   m_CullTransparentMesh: 1
+--- !u!114 &1637288800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637288796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ee2dbf3904bef64f9fb25df683e2c3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SwayImage
+  imageRect: {fileID: 1637288797}
+  amplitude: 20
+  speed: 0.5
 --- !u!1 &1997752404
 GameObject:
   m_ObjectHideFlags: 0
@@ -1431,7 +1542,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3549751966147941470, guid: 378807ae32bcafc4e98e53038df57d13, type: 3}
+  m_Sprite: {fileID: -3375880035971978969, guid: bba8f061060730a4cb1d82dfe13fb8f0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
