@@ -67,5 +67,6 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "Nutricao-Divertida.slnx"
+    "dotnet.defaultSolution": "Nutricao-Divertida.slnx",
+    "dotnet.preferCSharpExtension": true
 }

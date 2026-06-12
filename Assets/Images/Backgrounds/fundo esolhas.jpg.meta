@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 79ccac8172c9a2a4b8a9a084d71dad3f
+guid: 4f997b07f03150f489994412345a5d8b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4605291366882385104
-    second: salada_0
-  - first:
-      213: -469770538590941825
-    second: salada_1
-  - first:
-      213: -3448869253393740446
-    second: salada_2
+      213: -4168423535767707595
+    second: fundo esolhas_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -119,57 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: salada_0
+      name: fundo esolhas_0
       rect:
         serializedVersion: 2
-        x: 109
-        y: 381
-        width: 132
-        height: 131
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0336dc5d6e7b610c0800000000000000
-      internalID: -4605291366882385104
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: salada_1
-      rect:
-        serializedVersion: 2
-        x: 323
-        y: 450
-        width: 64
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f7dc7512f2a0b79f0800000000000000
-      internalID: -469770538590941825
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: salada_2
-      rect:
-        serializedVersion: 2
-        x: 44
+        x: 0
         y: 0
-        width: 424
-        height: 446
+        width: 3516
+        height: 2484
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 26d03badfa72320d0800000000000000
-      internalID: -3448869253393740446
+      spriteID: 530203521e8c626c0800000000000000
+      internalID: -4168423535767707595
       vertices: []
       indices: 
       edges: []
@@ -188,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -198,9 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      salada_0: -4605291366882385104
-      salada_1: -469770538590941825
-      salada_2: -3448869253393740446
+      fundo esolhas_0: -4168423535767707595
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

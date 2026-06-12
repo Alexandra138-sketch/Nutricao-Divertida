@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 79ccac8172c9a2a4b8a9a084d71dad3f
+guid: dacdda8aa6722494897788f702836d4f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4605291366882385104
-    second: salada_0
+      213: 2528183136902899325
+    second: "Prancheta 1 c\xF3pia_0"
   - first:
-      213: -469770538590941825
-    second: salada_1
+      213: 542468029486916508
+    second: "Prancheta 1 c\xF3pia_1"
   - first:
-      213: -3448869253393740446
-    second: salada_2
+      213: 7572117591500269711
+    second: "Prancheta 1 c\xF3pia_2"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +52,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -119,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: salada_0
+      name: "Prancheta 1 c\xF3pia_0"
       rect:
         serializedVersion: 2
-        x: 109
-        y: 381
-        width: 132
-        height: 131
+        x: 71
+        y: 100
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,20 +134,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0336dc5d6e7b610c0800000000000000
-      internalID: -4605291366882385104
+      spriteID: d76ea3a0b29e51320800000000000000
+      internalID: 2528183136902899325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: salada_1
+      name: "Prancheta 1 c\xF3pia_1"
       rect:
         serializedVersion: 2
-        x: 323
-        y: 450
-        width: 64
-        height: 62
+        x: 110
+        y: 100
+        width: 113
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +156,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f7dc7512f2a0b79f0800000000000000
-      internalID: -469770538590941825
+      spriteID: c93e2977ccb378700800000000000000
+      internalID: 542468029486916508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: salada_2
+      name: "Prancheta 1 c\xF3pia_2"
       rect:
         serializedVersion: 2
-        x: 44
-        y: 0
-        width: 424
-        height: 446
+        x: 234
+        y: 100
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,8 +178,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 26d03badfa72320d0800000000000000
-      internalID: -3448869253393740446
+      spriteID: f882cd6a4d0951960800000000000000
+      internalID: 7572117591500269711
       vertices: []
       indices: 
       edges: []
@@ -188,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -198,9 +198,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      salada_0: -4605291366882385104
-      salada_1: -469770538590941825
-      salada_2: -3448869253393740446
+      "Prancheta 1 c\xF3pia_0": 2528183136902899325
+      "Prancheta 1 c\xF3pia_1": 542468029486916508
+      "Prancheta 1 c\xF3pia_2": 7572117591500269711
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
